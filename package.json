@@ -1,0 +1,27 @@
+{
+  "name": "tetris",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000T\u0000e\u0000t\u0000r\u0000i\u0000s\u0000-\u0000A\u0000p\u0000p\u0000-\u0000T\u0000e\u0000s\u0000t\u0000i\u0000n\u0000g\u0000\r\u0000 \u0000",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/contactevin2u/Tetris-App-Testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/contactevin2u/Tetris-App-Testing/issues"
+  },
+  "homepage": "https://github.com/contactevin2u/Tetris-App-Testing#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "ws": "^8.18.3"
+  }
+}

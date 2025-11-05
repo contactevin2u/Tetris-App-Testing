@@ -190,10 +190,12 @@ function generatePlayerId() {
 
 // Get PORT from environment variable (for Render deployment)
 const PORT = process.env.PORT || 3000;
+const HOST = '0.0.0.0';
 
-server.listen(PORT, () => {
-  console.log(`Tetris server running on port ${PORT}`);
+server.listen(PORT, HOST, () => {
+  console.log(`Tetris server running on ${HOST}:${PORT}`);
   console.log(`WebSocket server is ready`);
+  console.log(`WebSocket URL: ws://${HOST}:${PORT}`);
 });
 
 // Graceful shutdown
